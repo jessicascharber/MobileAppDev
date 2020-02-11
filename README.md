@@ -1,10 +1,7 @@
-## Welcome to GitHub Pages
+## Welcome to my site for hosting my work on the ScharWeb Development App!
 
-You can use the [editor on GitHub](https://github.com/jessicascharber/MobileAppDev/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+This app was inspired by an assignment requirement of including a favorites list. Because the requirement was of a personal nature, I decided to go with that idea and create an app for my website development business-in-the-making. This site includes 5 pages of assignment required html content that will need to be edited in order to be used for its intended purpose. The site features information about my qualifications and abilities; and how I can be contacted. The html pages include index, resume, languages, sites and contact. The site also includes a custom.css styling page and a main.js JavaScript page.  
+### Sitemap
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
