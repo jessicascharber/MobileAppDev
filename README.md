@@ -5,15 +5,29 @@ This app was inspired by an assignment requirement of including a favorites list
 
 ```markdown
 - Home - index.html
-      <li><a href="#tvShow">Television Show</a></li>
-                 <li><a href="#food">Food</a></li>
-			           <li><a href="#color">Color</a></li>
-			           <li><a href="#dog">Dog</a></li>
-			           <li><a href="#horseColor">Color of Horse</a></li>
-			           <li><a href="#ride">Amusement Park Ride</a></li>
+      	#tvShow - Television Show
+      	#food - Food
+      	#color - Color
+      	#dog - Dog
+      	#horseColor - Color of Horse
+      	#ride - Amusement Park Ride
 - Resume - resume.html
-- Languages - languages.html    
+- Languages - languages.html 
+	#html5 - HTML5
+	#css3 - CSS3
+	#javaScript - JavaScript
+	#java - Java
+	#c - C#
+	#sql - SQL
+	#php - Php
+	#jQuery - jQuery
+	#net - .Net
+	#grid - My Favorite Programming Languages
 - Sites - sites.html
+	[Link](https://sotd.us/jessicascharber/cabinsite/cabinhomepage.html)
+	[Link](https://sotd.us/jessicascharber/airAdventures/index.html)
+	[Link](https://sotd.us/jessicascharber/funsite/index.html)
+	[Link](https://sotd.us/jessicascharber/funsite/colorFun.html)
 - Contact Us - contact.html
 
 # Header 1
