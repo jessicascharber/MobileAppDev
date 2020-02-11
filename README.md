@@ -24,10 +24,10 @@ This app was inspired by an assignment requirement of including a favorites list
 	#net - .Net
 	#grid - My Favorite Programming Languages
 - Sites - sites.html
-	[Link] (https://sotd.us/jessicascharber/cabinsite/cabinhomepage.html)
-	[Link] (https://sotd.us/jessicascharber/airAdventures/index.html)
-	[Link] (https://sotd.us/jessicascharber/funsite/index.html)
-	[Link] (https://sotd.us/jessicascharber/funsite/colorFun.html)
+	[Link](https://sotd.us/jessicascharber/cabinsite/cabinhomepage.html)
+	[Link](https://sotd.us/jessicascharber/airAdventures/index.html)
+	[Link](https://sotd.us/jessicascharber/funsite/index.html)
+	[Link](https://sotd.us/jessicascharber/funsite/colorFun.html)
 - Contact Us - contact.html
 ```
 ## Descriptions of buttons on each page, the user actions, and the outcomes or results when they are clicked -
@@ -65,4 +65,4 @@ This app was inspired by an assignment requirement of including a favorites list
 - Button to Submit the Form and receive confirmation.
 
 ## Direct Link to ScharWeb Development Site Home Page - 
-[Link] (https://sotd.us/jessicascharber/ScharWebDevelopment/index.html)
+[Link](https://sotd.us/jessicascharber/ScharWebDevelopment/index.html)
