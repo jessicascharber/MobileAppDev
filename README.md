@@ -3,7 +3,7 @@
 This app was inspired by an assignment requirement of including a favorites list. Because the requirement was of a personal nature, I decided to go with that idea and create an app for my website development business-in-the-making. This site includes 5 pages of assignment required html content that will need to be edited in order to be used for its intended purpose. The site features information about my qualifications and abilities; and how I can be contacted. The html pages include index, resume, languages, sites and contact. The site also includes a custom.css styling page and a main.js JavaScript page.  
 
 ### Sitemap
-```markdown
+
 - Home - index.html
       	#tvShow - Television Show
       	#food - Food
@@ -29,9 +29,9 @@ This app was inspired by an assignment requirement of including a favorites list
 	[Link] (https://sotd.us/jessicascharber/funsite/index.html)
 	[Link] (https://sotd.us/jessicascharber/funsite/colorFun.html)
 - Contact Us - contact.html
-```
+
 # Descriptions of buttons on each page, the user actions, and the outcomes or results when they are clicked -
-```markdown
+
 ## Home - index.html
 - Site Navigation Links - Navigate to any page on the ScharWeb Development site.
 - Email and phone contact links - To automatically open an email or begin a phone call to contact me.
@@ -63,6 +63,6 @@ This app was inspired by an assignment requirement of including a favorites list
 - Form to submit a request for contact.
 - Button to clear the form
 - Button to Submit the Form and receive confirmation.
-```
+
 ### Direct Link to ScharWeb Development Site Home Page - 
 Link (https://sotd.us/jessicascharber/ScharWebDevelopment/index.html)
