@@ -29,9 +29,9 @@ This app was inspired by an assignment requirement of including a favorites list
 	[Link] (https://sotd.us/jessicascharber/funsite/colorFun.html)
 - Contact Us - contact.html
 
-### Descriptions of buttons on each page, the user actions, and the outcomes or results when they are clicked -
+## Descriptions of buttons on each page, the user actions, and the outcomes or results when they are clicked -
 
-## Home - index.html
+### Home - index.html
 - Site Navigation Links - Navigate to any page on the ScharWeb Development site.
 - Email and phone contact links - To automatically open an email or begin a phone call to contact me.
 - Listview of favorites - including page section links to favorite items.
@@ -39,21 +39,21 @@ This app was inspired by an assignment requirement of including a favorites list
 - Button to clear the form
 - Button to Submit the form
 
-## Resume - resume.html 
+### Resume - resume.html 
 - Button to Open a Panel
 - Site Navigation Links - Navigate to any page on the ScharWeb Development site.
 - Searchable List of Skills
 - Form to Submit to Send a Message
 
-## Languages - languages.html
+### Languages - languages.html
 - Site Navigation Links - Navigate to any page on the ScharWeb Development site.
 - Listview of languages - including page section links to each language.
 
-## Sites - sites.html
+### Sites - sites.html
 - Site Navigation Links - Navigate to any page on the ScharWeb Development site.
 - Links to websites that I've created
 
-## Contact Us - contact.html
+### Contact Us - contact.html
 - Site Navigation Links - Navigate to any page on the ScharWeb Development site.
 - Button to Open a Panel that leads to Web Storage.
 - Input to Check for Web Storage
@@ -63,5 +63,5 @@ This app was inspired by an assignment requirement of including a favorites list
 - Button to clear the form
 - Button to Submit the Form and receive confirmation.
 
-### Direct Link to ScharWeb Development Site Home Page - 
+## Direct Link to ScharWeb Development Site Home Page - 
 [Link] (https://sotd.us/jessicascharber/ScharWebDevelopment/index.html)
