@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Page featuring contact information and other assignment requirements. -->
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="themes/ScharWebDev3.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <link href="custom.css" rel="stylesheet" type="text/css">
+    <script src="main.js"></script>
+    <!-- Assignment requirement - create a panel -->
+    <script>
+        $( "#contactuspanel" ).trigger( "updatelayout" );
+    </script>
+  </head>
+
+  <body>
+    <div data-role="page" id="contact" data-theme="c">
+	     <div data-role="header">
+           <!-- Panel Open Button -->
+         <p>
+           <a href="#contactuspanel" data-role="button">Check for web storage!</a>
+        </p>
+        <br>
+          <!-- Site navigation links -->
+          <nav>
+            &nbsp;
+             <a href="index.html">Home</a> &nbsp;
+             <a href="resume.html">Resume</a> &nbsp;
+             <a href="languages.html">Languages</a> &nbsp;
+             <a href="sites.html">Sites</a> &nbsp;
+             <a href="contact.html">Contact Us</a> &nbsp;
+           </nav>
+          <br>
+           <p id="logo">ScharWeb Development</p>
+       </div>
+
+    <div role="main" class="ui-content">
+      <!-- Assignment Requirement - Form -->
+           <div>
+             <h2 style="text-align: center">Contact Us</h2>
+           </div>
+        <form id="contactForm" action="" method="POST">
+    	     <div class="field">
+    	        <label for="fname">First Name</label>
+    	        <input type="text" name="First Name: " id="fname" value="">
+    	     </div>
+           <div class="field">
+    	        <label for="lname">Last Name</label>
+    	        <input type="text" name="Last Name: " id="lname" value="">
+    	     </div>
+           <div class="field">
+    	       <label for="phone">Phone Number</label>
+    	       <input type="text" name="Phone: " id="phone" value="">
+    	    </div>
+    	    <div class="field">
+    	        <label for="email">Email</label>
+    	        <input type="email" name="Email: " id="email" value="">
+    	    </div>
+    	    <div class="field">
+    	       <label for="message">Message</label>
+    	       <textarea name="Message: " id="message" value=""></textarea>
+    	    </div>
+          <div class="field">
+            <label for="select-choice-mini" class="select">Preferred Method of Contact</label>
+            <select name="Preferred Method of Contact: " id="select-choice-mini" data-mini="true" data-inline="true">
+              <option value="usMail">U.S. Mail</option>
+              <option value="emailOpt">Email</option>
+              <option value="phone">Phone</option>
+              <option value="text">Text</option>
+            </select>
+          </div>
+          <div class="field">
+              <!-- Button to clear the form -->
+              <input type="reset" value="Reset Button">
+          </div>
+        </form>
+        <!-- Form Button Submit -->
+        <button onclick="contactList()">Submit</button>
+        <h3>Submit your form data to see it confirmed below.</h3>
+
+      <table id="demo"></table>
+      <table id="myTable"></table>
+        <!-- Script required to accept and display user input -->
+        <script>
+          console.table(contactForm);
+          function contactList() {
+          var x = document.getElementById("contactForm");
+          var table = document.getElementById("myTable");
+          var txt = "";
+          var i;
+          var lbl;
+          for (i = 0; i < x.length; i++) {
+           txt = x.elements[i].value + "<br>";
+           lbl = x.elements[i].name + "<br>";
+           var row = table.insertRow([i]);
+           var cell1 = row.insertCell(0);
+           var cell2 = row.insertCell(1);
+           cell1.innerHTML = lbl;
+           cell2.innerHTML = txt;
+          }
+          }
+        </script>
+	    </div>
+      <div data-role="footer" data-theme="c">
+        <h4>ScharWeb Development &copy; 2020</h4>
+      </div>
+      <!-- Assignment Requirement - Panel -->
+      <div data-role="panel" id="contactuspanel">
+        <!-- Assignment Requriement - Use Web Storage -->
+              <p>
+                  This will test my HTML5 localStorage in my app.
+              </p>
+              <textarea class="localstorage" placeholder="Anything you type here will be saved with HTML5 localStorage." autofocus></textarea>
+              <button class="clear">Clear localStorage</button>
+              <button class="empty">Empty localStorage</button>
+              <!-- Button to close the panel -->
+              <a href="#contact" data-role="button" data-rel="close">Close</a>
+       </div>
+    </div>
+  </body>
+</html>

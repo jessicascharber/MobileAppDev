@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+  <html>
+    <!-- This site was created to fulfill assignment requirements for a college class
+        The site is loosely modeled, with consideration of the assignment requirements
+        on a website development company. -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+          <title>Home</title>
+
+          <link rel="stylesheet" href="themes/ScharWebDev3.min.css" />
+          <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+          <link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+          <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+          <script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+          <link href="custom.css" rel="stylesheet" type="text/css">
+          <script src="main.js"></script>
+    </head>
+
+    <body>
+      <div data-role="page" id="home" data-theme="a">
+        <div data-role="header" data-theme="a">
+          <br>
+          <!-- Site navigation buttons -->
+          <nav>
+             &nbsp;
+	           <a href="index.html">Home</a> &nbsp;
+             <a href="resume.html">Resume</a> &nbsp;
+             <a href="languages.html">Languages</a> &nbsp;
+             <a href="sites.html">Sites</a> &nbsp;
+             <a href="contact.html">Contact Us</a> &nbsp;
+          </nav>
+          <br>
+          <!-- Company logo -->
+          <p id="logo">ScharWeb Development</p>
+        </div>
+
+        <div role="main" class="ui-content">
+          <div>
+            <h3>Contact Info -</h3><br>
+            <p>Jessica Scharber</p>
+            <!-- Email and phone contact links -->
+            <ul>
+              <li><a href="mailto:jessicascharber@gmail.com">Email</a> - jessicascharber@gmail.com</li>
+              <li><a href="tel:+7633502555">Phone</a> - (763)350-2555</li>
+            </ul>
+            <h3>About Me</h3>
+            <p>Hello, my name is Jessica Scharber and I am a recent graduate of Rasmussen College.
+              With my degree in Web Programming, I am eager to begin work on developing your website or mobile application.
+              Please contact me with any questions you may have.
+            </p>
+          </div>
+        <!-- Assignment requirement - listview of favorites - page section links -->
+          <p id="favorites">These are a few of my favorite things...</p>
+          <div data-role="content">
+		        <ul data-role="listview" data-theme="a">
+			           <li><a href="#tvShow">Television Show</a></li>
+                 <li><a href="#food">Food</a></li>
+			           <li><a href="#color">Color</a></li>
+			           <li><a href="#dog">Dog</a></li>
+			           <li><a href="#horseColor">Color of Horse</a></li>
+			           <li><a href="#ride">Amusement Park Ride</a></li>
+            </ul>
+	        </div>
+          <!-- Assignment Requirement - Allow a user to enter a list of their favorites
+              to be displayed -->
+          <div data-role="content">
+            <h2>Submit your favorites list!</h2>
+            <form id="favoritesForm">
+              <label>Television Show: </label><input type="text" name="Television Show: " value=""><br>
+              <label>Food: </label><input type="text" name="Food: " value=""><br>
+              <label>Color: </label><input type="text" name="Color: " value=""><br>
+              <label>Dog: </label><input type="text" name="Dog: " value=""><br>
+              <label>Color of Horse: </label><input type="text" name="Color of Horse: " value=""><br>
+              <label>Amusement Park Ride: </label><input type="text" name="Amusement Park Ride: " value=""><br>
+              <div class="field">
+                  <!-- Button to clear the form -->
+                  <input type="reset" value="Clear Form">
+              </div>
+            </form>
+              <!-- Form Button Submit -->
+            <button onclick="myFunction()">Submit to Storage and View Record Below</button>
+          </div>
+
+          <table id="demo"></table>
+          <table id="myTable"></table>
+          <!-- Script required to accept and display user input -->
+          <script>
+            console.table(contactForm);
+            function myFunction() {
+              var x = document.getElementById("favoritesForm");
+              var table = document.getElementById("myTable");
+              var txt = "";
+              var i;
+              var lbl;
+              for (i = 0; i < x.length; i++) {
+                txt = x.elements[i].value + "<br>";
+                lbl = x.elements[i].name + "<br>";
+                var row = table.insertRow([i]);
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+                cell1.innerHTML = lbl;
+                cell2.innerHTML = txt;
+              }
+            }
+          </script>
+        </div>
+      <div data-role="footer" data-theme="a">
+          <h4>ScharWeb Development &copy; 2020</h4>
+      </div>
+    </div>
+
+    <!-- Code for each page section of favorites list, including back buttons -->
+    <div data-role="page" id="tvShow" data-theme="a" data-add-back-btn="true">
+  	     <div data-role="header" data-theme="a" data-add-back-btn="true">
+  	        <h1>Television Show</h1>
+  	      </div>
+  	      <div role="main" class="ui-content">
+  	           <h3>Big Brother</h3>
+  	           <p>The best reality show of all time! A perfect combination of
+                 reality television, social experiment, creative competition, and drama!</p>
+  	      </div>
+         <div data-role="footer" data-theme="a">
+           <h4>ScharWeb Development &copy; 2020</h4>
+         </div>
+       </div>
+       <div data-role="page" id="food" data-theme="a" data-add-back-btn="true">
+  	      <div data-role="header" data-theme="a" data-add-back-btn="true">
+  		        <h1>Food</h1>
+  	      </div>
+  	       <div role="main" class="ui-content">
+  	          <h3>Seafood</h3>
+  	          <p> Lobster, crab legs, shrimp, and scallops with lots of butter!</p>
+  	          <h3>Steak</h3>
+  	          <p>Medium rare, any cut besides round steak!</p>
+  	        </div>
+            <div data-role="footer" data-theme="a">
+              <h4>ScharWeb Development &copy; 2020</h4>
+            </div>
+        </div>
+        <div data-role="page" id="color" data-theme="a" data-add-back-btn="true">
+  	       <div data-role="header" data-theme="a" data-add-back-btn="true">
+  		         <h1>Color</h1>
+  	       </div>
+  	      <div role="main" class="ui-content">
+  	         <h3>Blue</h3>
+  	         <h3>Purple</h3>
+             <h3>Black</h3>
+         </div>
+        <div data-role="footer" data-theme="a">
+               <h4>ScharWeb Development &copy; 2020</h4>
+        </div>
+      </div>
+      <div data-role="page" id="dog" data-theme="a" data-add-back-btn="true">
+  	     <div data-role="header" data-theme="a" data-add-back-btn="true">
+           <h1>Dog</h1>
+  	     </div>
+        <div role="main" class="ui-content">
+  	        <h3>German Shepherd</h3>
+            <p>Bruno</p>
+            <h3>Border Collie</h3>
+  	        <p>Krissy</p>
+  	    </div>
+        <div data-role="footer" data-theme="a">
+           <h4>ScharWeb Development &copy; 2020</h4>
+        </div>
+      </div>
+      <div data-role="page" id="horseColor" data-theme="a" data-add-back-btn="true">
+  	     <div data-role="header" data-theme="a" data-add-back-btn="true">
+  		       <h1>Color of Horse</h1>
+  	     </div>
+         <div role="main" class="ui-content">
+            <h3>Bucksin</h3>
+            <h3>Bay</h3>
+  	        <h3>Blue Roan</h3>
+            <h3>Black</h3>
+  	     </div>
+         <div data-role="footer" data-theme="a">
+           <h4>ScharWeb Development &copy; 2020</h4>
+         </div>
+       </div>
+       <div data-role="page" id="ride" data-theme="a" data-add-back-btn="true">
+         <div data-role="header" data-theme="a" data-add-back-btn="true">
+           <h1>Amusement Park Ride</h1>
+         </div>
+         <div role="main" class="ui-content">
+           <h3>Extreme Swing<h3>
+         </div>
+         <div data-role="footer" data-theme="a">
+           <h4>ScharWeb Development &copy; 2020</h4>
+         </div>
+       </div>
+    </body>
+</html>

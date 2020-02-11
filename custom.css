@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document provided in the module 1 code examples. */
+/* The following code was provided in the module 1 code examples,
+however, I have removed parts that I thought were interfering
+with my styling goals. */
+.ui-footer {
+	font-size: 0.8em;
+	font-weight: normal;
+}
+h3, h4 {
+	margin-bottom: 0;
+}
+h3 + p, h4 + p {
+	margin-top: 0;
+}
+/* In the following classes and attributes you will see
+several attempts to override and/orsupplement jquery
+theme roller. I wasn't able to discover how to change
+my links' color to black. I assume I must have an error
+somewhere or maybe I need to change the attribute
+I'm using or maybe I'm not using the framework properly. */
+#page {background-color: #3e4d7a;
+       color: #000000;
+     }
+#header {background-color: #5815b7;
+         color: #000000;
+         hover: #bb1b4d;
+         active: #005599;
+         visited: #3388cc;
+}
+body {background-color: #6176b3;
+      color: black;}
+nav {color: #000000;
+  hover: #bb1b4d;
+  active: #005599;
+  visited: #3388cc;
+    }
+link {color: black;
+      hover: #bb1b4d;
+      active: #005599;
+      visited: #3388cc;
+    }
+button {color: black;
+    text-color: black;
+    hover: #bb1b4d;
+    active: #005599;
+    pressed: #3388cc;
+  }
+/* My logo, with shadow effects. */
+#logo {
+	font-size: 50px;
+	font-family: times;
+	margin-top: 0px;
+	/*margin-right: 515px;*/
+	background-color: black;
+	color: #3e4d7a;
+	text-shadow: 1px 1px #5815b7;
+}
+#contactInfo {
+	margin-top: -50px;
+	/* This is where I had wanted the contact info to display
+  but I had to move it back in order to fit the mobile view.
+   margin-left: 755px; */
+}
+#contact {
+	margin-top: 0px;
+	/* margin-left: 755px; */
+}
+#favorites {font-size: 25px;
+						display: block;
+						outline-color: white;}
+
+.center {text-align: center;}
+
+a[href^="https"]::before {
+  content: "🔗 ";
+}
+a[href^="mailto"]::before {
+  content: "📧 ";
+}
+
+a[href^="tel"]::before {
+  content: "📞 ";
+}
+
+li {
+  margin-bottom: .5rem;
+}
