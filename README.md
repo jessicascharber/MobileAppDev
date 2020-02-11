@@ -28,9 +28,9 @@ This app was inspired by an assignment requirement of including a favorites list
 	[Link] (https://sotd.us/jessicascharber/funsite/index.html)
 	[Link] (https://sotd.us/jessicascharber/funsite/colorFun.html)
 - Contact Us - contact.html
-
-## Descriptions of buttons on each page, the user actions, and the outcomes or results when they are clicked -
-
+```
+# Descriptions of buttons on each page, the user actions, and the outcomes or results when they are clicked -
+```markdown
 ## Home - index.html
 - Site Navigation Links - Navigate to any page on the ScharWeb Development site.
 - Email and phone contact links - To automatically open an email or begin a phone call to contact me.
