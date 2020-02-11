@@ -3,10 +3,18 @@
 This app was inspired by an assignment requirement of including a favorites list. Because the requirement was of a personal nature, I decided to go with that idea and create an app for my website development business-in-the-making. This site includes 5 pages of assignment required html content that will need to be edited in order to be used for its intended purpose. The site features information about my qualifications and abilities; and how I can be contacted. The html pages include index, resume, languages, sites and contact. The site also includes a custom.css styling page and a main.js JavaScript page.  
 ### Sitemap
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
 ```markdown
-Syntax highlighted code block
+- Home - index.html
+      <li><a href="#tvShow">Television Show</a></li>
+                 <li><a href="#food">Food</a></li>
+			           <li><a href="#color">Color</a></li>
+			           <li><a href="#dog">Dog</a></li>
+			           <li><a href="#horseColor">Color of Horse</a></li>
+			           <li><a href="#ride">Amusement Park Ride</a></li>
+- Resume - resume.html
+- Languages - languages.html    
+- Sites - sites.html
+- Contact Us - contact.html
 
 # Header 1
 ## Header 2
