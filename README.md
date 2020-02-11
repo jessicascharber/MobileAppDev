@@ -29,28 +29,37 @@ This app was inspired by an assignment requirement of including a favorites list
 	[Link](https://sotd.us/jessicascharber/funsite/index.html)
 	[Link](https://sotd.us/jessicascharber/funsite/colorFun.html)
 - Contact Us - contact.html
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
+## Descriptions of buttons on each page, the user actions, and the outcomes or results when they are clicked -
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Home - index.html
+- Site Navigation Links - Navigate to any page on the ScharWeb Development site.
+- Email and phone contact links - To automatically open an email or begin a phone call to contact me.
+- Listview of favorites - including page section links to favorite items.
+- Form to allow a user to enter a list of their favorites to be displayed.
+- Button to clear the form
+- Button to Submit the form
 
-### Jekyll Themes
+## Resume - resume.html 
+- Button to Open a Panel
+- Site Navigation Links - Navigate to any page on the ScharWeb Development site.
+- Searchable List of Skills
+- Form to Submit to Send a Message
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jessicascharber/MobileAppDev/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Languages - languages.html
+- Site Navigation Links - Navigate to any page on the ScharWeb Development site.
+- Listview of languages - including page section links to each language.
 
-### Support or Contact
+## Sites - sites.html
+- Site Navigation Links - Navigate to any page on the ScharWeb Development site.
+- Links to websites that I've created
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Contact Us - contact.html
+- Site Navigation Links - Navigate to any page on the ScharWeb Development site.
+- Button to Open a Panel that leads to Web Storage.
+- Input to Check for Web Storage
+- Button to Submit to Web Storage
+- Button to close the panel
+- Form to submit a request for contact.
+- Button to clear the form
+- Button to Submit the Form and receive confirmation.
