@@ -1,6 +1,6 @@
-## Welcome to my GitHub Page for showcasing my work on the ScharWeb Development App!
+## This was the final deliverable for 5.5 week Mobile Application Development course at Rasmussen College.
 
-This app was inspired by an assignment requirement of including a favorites list. Because the requirement was of a personal nature, I decided to go with that idea and create an app for my website development business-in-the-making. This site includes 5 pages of assignment required html content that will need to be edited in order to be used for its intended purpose. The site features information about my qualifications and abilities; and how I can be contacted. The html pages include index, resume, languages, sites and contact. The site also includes a custom.css styling page and a main.js JavaScript page.  
+This site was created using jQuery Theme Roller and includes 5 pages of assignment required html content that would need to be edited in order to be used for its intended purpose. The html pages include index, resume, languages, sites and contact. The site also includes a custom.css styling page and a main.js JavaScript page.  
 
 ### Sitemap
  ```markdown
